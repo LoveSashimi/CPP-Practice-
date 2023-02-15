@@ -1,0 +1,39 @@
+1. What type of data does a main function return? 
+Main function return 0.
+
+2. What is the difference between syntax error and runtime error? 
+Syntax error is when the code cannot be compiled by the parser. 
+Runtime error is when the code can be compiled by the parser but during the execution there is an error occurred. 
+
+3. If x = 10, y = 12, what are the new values of x?
+   a). x = x; 
+10
+   b). x += x;
+11 
+   c). x = --y; 
+11
+
+
+4. Given: 
+    int x = 7; 
+    int y = 4; 
+   What will be the values of the operations below? 
+   a). x % y
+3
+   b). y % x
+4
+   c). x / y
+1
+   d). x / (double y)
+1.75
+   e). double z = y; 
+4
+
+5. What is // and \\? 
+// is comment out.
+\\ is a representation of the character "\" in C++.
+
+6. If x = true, y = false, what value is z? 
+bool z = !((x && y) || (x || y)); 
+
+false
